@@ -1,0 +1,15 @@
+
+nav
+{
+    background-color: 	#404040;
+    
+}
+
+.navbar-nav .nav-link.active-link, a:hover {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+a
+{
+    color: wheat;
+}

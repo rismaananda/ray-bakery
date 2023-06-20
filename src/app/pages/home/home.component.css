@@ -1,0 +1,83 @@
+.banner
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../assets/img/bread2.jpg');
+    background-color: transparent;
+    height: 100vh;
+    background-position: right;
+    background-size: cover;
+    margin-top: -10px;
+}
+.content h1, a
+{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+/* .content a */
+.banner h1
+{
+    color: wheat;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 100x;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.banner a
+{
+    color: wheat;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 100x;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.button-link .p-button-outlined.p-button-warning {
+    /* Atur gaya tombol di sini */
+    background-color: red;
+    color: red;
+    border-color: red;
+}
+
+.stepBox
+{
+    background-color: #404040;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepBox h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.stepBox p
+{
+    font-size: 20px;
+    font-style: italic;  
+    font-weight:lighter;
+    color: wheat; 
+}
+
+
+.foodbox
+{
+    padding: 10px 5px;
+}
+.foodbox a, h1, img, p
+{
+    padding: 5px 5px 5px 5px;
+}
+.foodbox img
+{
+    width: 100%;  
+    height: 250px;
+    object-fit: cover;
+    
+}
+  

@@ -1,0 +1,29 @@
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    background-color: 	#404040;
+    padding: 20px 10px;
+    top: 100%;
+}
+
+h1
+{
+    color: wheat;
+    font-weight: 20px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+a:hover
+{
+    color: var(--primary-color);
+}
+i
+{
+    padding: 5px;
+}

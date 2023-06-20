@@ -1,0 +1,51 @@
+<div class="banner">
+    <h1><span class="italic">R A Y</span> Bakery</h1><br>
+    <a routerLink="menu" class="button-link">
+        <p-button label="ORDER NOW" styleClass="p-button-outlined p-button-warning"></p-button>
+      </a>
+</div>
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">How to fet fresh bread</h1>
+    <div class="row">
+        <!-- first -->
+        <div class="col-lg-4">
+            <div class="stepBox">
+                <h1 class="text-center">1
+                    <p>select menu</p>
+                </h1>
+            </div>
+        </div>
+        <!-- second -->
+        <div class="col-lg-4">
+            <div class="stepBox">
+                <h1>2
+                    <p>fill the details</p>
+                </h1>
+            </div>
+        </div>
+        <!-- third -->
+        <div class="col-lg-4">
+            <div class="stepBox">
+                <h1>3
+                    <p>your order deliver in minute</p>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- breadbox -->
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let fd of breadData;index as i">
+            <div class="foodbox" *ngIf="i<=3">
+                <img src="{{fd.breadImg}}">
+                <h1>{{fd.breadName}}</h1>
+                <p>{{fd.breadPrc | currency:'Rp '}}</p>
+             </div>
+        </div>
+    </div>
+    <!-- <a routerLink="menu" class="view-more"> -->
+        <p-button routerLink="menu" label="View More" styleClass="p-button-outlined p-button-warning"></p-button>
+    <!-- </a> -->
+</div>

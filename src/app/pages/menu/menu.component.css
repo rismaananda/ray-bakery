@@ -1,0 +1,16 @@
+.breadBox
+{
+    padding: 10px 5px;
+}
+/* .breadBox p
+{
+    justify-content: center;
+} */
+.breadBox img
+{
+    width: 100%;  
+    height: 250px;
+    object-fit: cover;
+    
+}
+  

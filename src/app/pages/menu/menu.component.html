@@ -1,0 +1,13 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let bd of breadData;index as i">
+             <div class="breadBox">
+                <img src="{{bd.breadImg}}">
+                <h1>{{bd.breadName}}</h1>
+                <p>{{bd.breadPrc | currency:"Rp "}}</p>
+                <p>{{bd.breadDesc}}</p>
+                <p-button label="Success" styleClass="p-button-sm p-button-outlined p-button-success"></p-button>
+             </div>
+        </div>
+    </div>
+</div>
