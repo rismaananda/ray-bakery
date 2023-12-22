@@ -9,43 +9,41 @@ export class OrderDetailsService {
 
   // bread Data
   breadData = [
-  
       {
         "id": 1,
-        "breadName": "Roti Tawar",
-        "breadImg": "../../../assets/img/bread.jpg",
-        "breadDesc": "Roti tawar adalah roti yang lembut dan empuk yang biasanya digunakan untuk membuat sandwich atau dipanggang menjadi roti panggang.",
+        "breadName": "White Bread",
+        "breadImg": "../../../assets/img/white.jpg",
+        "breadDesc": "White bread is a soft and fluffy bread that is commonly used for making sandwiches or toasted as toast.",
         "breadPrc": 10000
       },
       {
         "id": 2,
         "breadName": "Croissant",
         "breadImg": "../../../assets/img/bread.jpg",
-        "breadDesc": "Croissant adalah roti berbentuk bulan sabit yang terbuat dari adonan tepung, mentega, dan ragi. Roti ini memiliki tekstur renyah di luar dan lembut di dalam.",
+        "breadDesc": "Croissant is a crescent-shaped bread made from flour, butter, and yeast. This bread has a crispy texture on the outside and a soft interior.",
         "breadPrc": 15000
       },
       {
         "id": 3,
-        "breadName": "Donat",
-        "breadImg": "../../../assets/img/bread.jpg",
-        "breadDesc": "Donat adalah roti yang berbentuk cincin dengan lubang di tengahnya. Roti ini biasanya digoreng dan diberi hiasan seperti gula donat atau krim.",
+        "breadName": "Donut",
+        "breadImg": "../../../assets/img/donut.jpg",
+        "breadDesc": "Donut is a ring-shaped bread with a hole in the center. This bread is usually fried and decorated with sugar or cream.",
         "breadPrc": 5000
       },
       {
         "id": 4,
-        "breadName": "Bolu",
-        "breadImg": "../../../assets/img/bread.jpg",
-        "breadDesc": "Bolu adalah jenis roti yang terbuat dari adonan tepung, telur, gula, dan mentega. Roti ini biasanya memiliki tekstur lembut dan sering diberi hiasan seperti krim atau selai.",
+        "breadName": "Brownies",
+        "breadImg": "../../../assets/img/brownies.jpg",
+        "breadDesc": "Cake is a type of bread made from flour, eggs, sugar, and butter. This bread usually has a soft texture and is often decorated with cream or jam.",
         "breadPrc": 12000
       },
       {
         "id": 5,
-        "breadName": "Roti Sobek",
+        "breadName": "Torn Bread",
         "breadImg": "../../../assets/img/bread.jpg",
-        "breadDesc": "Roti sobek adalah roti yang memiliki permukaan yang kasar dan sering dipotong-potong menjadi bagian-bagian kecil. Roti ini cocok untuk disantap dengan saus atau dip.",
+        "breadDesc": "Torn bread is a bread with a rough surface and is often cut into small pieces. This bread is suitable for dipping in sauce or spreads.",
         "breadPrc": 8000
       }
-    
   ]
 }
  
